@@ -7,3 +7,4 @@ client = gspread.authorize(creds)
 
 sheet = client.open('Frizonagra Sheet').sheet1
 
+sheet.update_cell(2, 1, "Cool")
